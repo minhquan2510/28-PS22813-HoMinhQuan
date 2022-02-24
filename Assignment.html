@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>28-PS22813-Hồ Minh Quân</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+         .div1 {
+        width:293.5px;
+        height: 404px;
+        padding: 12px 2px 12px 2px;
+        max-height: 404px;
+        min-height: min-content;
+        min-width: auto ;
+        background-color:#FFFFFF ;
+        background: 0% 0%;
+        position: color #4A4A4A ;
+      }
+         .div2 {
+        width:404px;
+        height: 587px;
+        padding: 12px 2px 12px 2px;
+        max-height: 404px;
+        min-height: min-content;
+        min-width: auto ;
+        background-color:#FFFFFF ;
+        background: 0% 0%;
+        position: color #4A4A4A ;
+      }
+         .div3{       
+        height: 587px;
+        padding: 12px 2px 2px 2px;
+        max-height: 404px;
+        min-height: min-content;
+        min-width: auto ;
+        background-color:#FFFFFF ;
+        background: 0% 0%;
+        position: color #4A4A4A ;
+        }
+        #search{
+            border-radius: 250px;
+        }
+        .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+        }
+        .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 250px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        right: 105%;
+        }
+        .tooltip:hover .tooltiptext {
+        visibility: visible;
+        }
+        #bando{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+    <header> 
+    <nav class="menu">
+        <ul>
+            <img src="images/QQ.png" width="40px" align="left">
+            <li><a href="#">Trang chủ&emsp;|</a></li>
+            <ul>
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Adult</a></li>
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">Anime</a></li>
+                <li><a href="#">Comedy</a></li>
+                <li><a href="#">Comic</a></li>
+                <li><a href="#">Demon</a></li>
+                <li><a href="#">Detective</a></li>
+                <li><a href="#">Fantasy</a></li>
+                <li><a href="#">Horror</a></li>
+                <li><a href="#">Magic</a></li>
+                <li><a href="#">Mystery</a></li>
+                <li><a href="#">One shot</a></li>
+                <li><a href="#">Romance</a></li>
+                <li><a href="#">Seinen</a></li>
+                <li><a href="#">Shounen</a></li>
+                <li><a href="#">Shounen Ai</a></li>
+                <li><a href="#">Slice of life</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Tragedy</a></li>
+                <li><a href="#">Webtoon</a></li>
+            </ul>
+            <li>
+            <a href="#">Thể loại&emsp;|</a>
+            <ul>
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Adult</a></li>
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">Anime</a></li>
+                <li><a href="#">Comedy</a></li>
+                <li><a href="#">Comic</a></li>
+                <li><a href="#">Demon</a></li>
+                <li><a href="#">Detective</a></li>
+                <li><a href="#">Fantasy</a></li>
+                <li><a href="#">Horror</a></li>
+                <li><a href="#">Magic</a></li>
+                <li><a href="#">Mystery</a></li>
+                <li><a href="#">One shot</a></li>
+                <li><a href="#">Romance</a></li>
+                <li><a href="#">Seinen</a></li>
+                <li><a href="#">Shounen</a></li>
+                <li><a href="#">Shounen Ai</a></li>
+                <li><a href="#">Slice of life</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Tragedy</a></li>
+                <li><a href="#">Webtoon</a></li>
+            </ul>
+            </li>
+            <ul>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Email</a></li>
+                </ul>
+            <li>
+                <a href="#">Liên hệ&emsp;|</a>
+                <ul>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Email</a></li>
+                </ul>
+            </li>
+            <ul>
+                <li><a href="#">Theo ngày</a></li>
+                <li><a href="#">Từ a - z</a></li>
+                <li><a href="#">Từ z - a</a></li>
+                <li><a href="#">Mới cập nhật</a></li>
+            </ul>
+            <li>
+            <a href="#">Sắp xếp&emsp;|</a>
+            <ul>
+                <li><a href="#">Theo ngày</a></li>
+                <li><a href="#">Từ a - z</a></li>
+                <li><a href="#">Từ z - a</a></li>
+                <li><a href="#">Mới cập nhật</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Lịch sử&emsp;|</a></li>
+            <li><a href="#">Fanpage&emsp;|</a></li>    
+            <li>
+                <a href="#">Tài khoản&emsp;|</a>
+                <ul>
+                    <li><a href="dangnhap.html">Đăng nhập</a></li>
+                    <li><a href="dangki.html">Đăng kí</a></li>
+                </ul>
+            </li>
+            <a><input id="search" type="text" placeholder="Nhập nội dung cần tìm..."/></a>       
+        </ul>
+    </nav>
+</header>
+<div class="bao">
+<article>
+    <div class="div1">      
+        <div class="tooltip">
+        <div class="item1">
+        <img src="http://i.truyenvua.com/slider/290x191/slider_1559213426.jpg?r=r8645456">
+        <h2>Thất Hình Đại Tội</h2>
+        <span class="tooltiptext">“Thất đại ác nhân”, một nhóm chiến binh có tham vọng lật đổ vương quốc Britannia, được cho là đã bị tiêu diệt bởi các “hiệp sĩ thánh chiến” mặc dù vẫn còn 1 số người cho rằng họ vẫn còn sống. 10 năm sau, Các hiệp sĩ thánh chiến đã làm 1 cuộc đảo chính và khống chế đức vua, họ trở thành người cai trị độc tài mới của vương quốc. Elizabeth, con gái duy nhất của nhà vua, đã lên đường tìm “thất đại ác nhân” để nhờ họ tái chiếm lại vương quốc. Công chúa có thành công trong việc tìm kiếm “thất đại ác nhân”, các “hiệp sĩ thánh chiến” sẽ làm gì để ngăn chăn cô? xem các chap truyện sau sẽ rõ.</span>
+
+    </div>
+    </div>
+        <div class="item2">
+        <div class="tooltip">
+        <img src="http://i.truyenvua.com/slider/290x191/slider_1560573084.jpg?r=r8645456">
+        <h2>Boku No Hero Academia</h2>
+        <span class="tooltiptext">Vào tương lai, lúc mà con người với những sức mạnh siêu nhiên là điều thường thấy quanh thế giới. Đây là câu chuyện về Izuku Midoriya, từ một kẻ bất tài trở thành một siêu anh hùng. Tất cả ta cần là mơ ước.</span>
+    </div>
+    </div>
+    </div>
+        <div class="div2">
+        <div class="item3">
+        <div class="tooltip">
+        <img src="http://i.truyenvua.com/slider/290x191/slider_1559213335.jpg?r=r8645456">
+        <h2>Onepunch Man</h2>
+        <span class="tooltiptext">Onepunch-Man là một Manga thể loại siêu anh hùng với đặc trưng phồng tôm đấm phát chết luôn… Lol!!! Nhân vật chính trong Onepunch-man là Saitama, một con người mà nhìn đâu cũng thấy “tầm thường”, từ khuôn mặt vô hồn, cái đầu trọc lóc, cho tới thể hình long tong. Tuy nhiên, con người nhìn thì tầm thường này lại chuyên giải quyết những vấn đề hết sức bất thường. Anh thực chất chính là một siêu anh hùng luôn tìm kiếm cho mình một đối thủ mạnh. Vấn đề là, cứ mỗi lần bắt gặp một đối thủ tiềm năng, thì đối thủ nào cũng như đối thủ nào, chỉ ăn một đấm của anh là… chết luôn. Liệu rằng Onepunch-Man Saitaman có thể tìm được cho mình một kẻ ác dữ dằn đủ sức đấu với anh? Hãy theo bước Saitama trên con đường một đấm tìm đối cực kỳ hài hước của anh!!</span>
+    </div>
+    </div>
+    <div class="item4">
+        <div class="tooltip">
+        <img src="http://i.truyenvua.com/slider/290x191/slider_1559211185.jpg?r=r8645456" height="191.5px" width="289.5px">
+        <h2>One Piece</h2>
+        <span class="tooltiptext">One Piece là câu truyện kể về Luffy và các thuyền viên của mình. Khi còn nhỏ, Luffy ước mơ trở thành Vua Hải Tặc. Cuộc sống của cậu bé thay đổi khi cậu vô tình có được sức mạnh có thể co dãn như cao su, nhưng đổi lại, cậu không bao giờ có thể bơi được nữa. Giờ đây, Luffy cùng những người bạn hải tặc của mình ra khơi tìm kiếm kho báu One Piece, kho báu vĩ đại nhất trên thế giới. Trong One Piece, mỗi nhân vật trong đều mang một nét cá tính đặc sắc kết hợp cùng các tình huống kịch tính, lối dẫn truyện hấp dẫn chứa đầy các bước ngoặt bất ngờ và cũng vô cùng hài hước đã biến One Piece trở thành một trong những bộ truyện nổi tiếng nhất không thể bỏ qua. Hãy đọc One Piece để hòa mình vào một thế giới của những hải tặc rộng lớn, đầy màu sắc, sống động và thú vị, cùng đắm chìm với những nhân vật yêu tự do, trên hành trình đi tìm ước mơ của mình.</span>
+    </div>
+    </div>
+    </div>
+    <div class="div3">
+        <div class="item5">
+            <div class="tooltip">
+        <img src="http://i.truyenvua.com/slider/583x386/slider_1560493497.jpg?r=r8645456" height="402px" width="583">
+        <h2>Black Clover</h2>
+        <span class="tooltiptext">Aster và Yuno là hai đứa trẻ bị bỏ rơi ở nhà thờ và cùng nhau lớn lên tại đó. Khi còn nhỏ, chúng đã hứa với nhau xem ai sẽ trở thành Ma pháp vương tiếp theo. Thế nhưng, khi cả hai lớn lên, mọi sô chuyện đã thay đổi. Yuno là thiên tài ma pháp với sức mạnh tuyệt đỉnh trong khi Aster lại không thể sử dụng ma pháp và cố gắng bù đắp bằng thể lực. Khi cả hai được nhận sách phép vào tuổi 15, Yuno đã được ban cuốn sách phép cỏ bốn bá (trong khi đa số là cỏ ba lá) mà Aster lại không có cuốn nào. Tuy nhiên, khi Yuno bị đe dọa, sự thật về sức mạnh của Aster đã được giải mã- cậu ta được ban cuốn sách phép cỏ năm lá, cuốn sách phá ma thuật màu đen. Bấy giờ, hai người bạn trẻ đang hướng ra thế giới, cùng chung mục tiêu.</span>
+    </div>
+    </div>
+</article>
+</div>
+
+<div class="container">
+    <div class="box">
+        <h3>TRUYỆN ĐỀ CỬ</h3>
+    </div>
+</div>
+
+<div class="bao">
+        <div class="boxtruyen">
+            <img src="http://i.truyenvua.com/ebook/190x247/inuyasha-khuyen-da-xoa_1445390384.jpg?r=r8645456">
+            <img src="http://i.truyenvua.com/ebook/190x247/pha-bo-gioi-han_1606469010.jpg?r=r8645456">
+            <img src="http://i.truyenvua.com/ebook/190x247/bach-vuong-toa_1631161999.jpg?r=r8645456">
+            <img src="http://i.truyenvua.com/ebook/190x247/naruto_1552225598.jpg?r=r8645456">
+            <img src="http://i.truyenvua.com/ebook/190x247/su-tro-lai-cua-anh-hung-cap-tham-hoa_1640396157.jpg?r=r8645456">
+            <img src="http://i.truyenvua.com/ebook/190x247/7-vien-ngoc-rong_1552225535.jpg?r=r8645456">
+</div>
+<div class="container">
+    <div class="box">
+        <h3>TRUYỆN MỚI</h3>
+    </div>
+</div>
+<div class="bao">
+        <div class="boxtruyen">
+            <img src="http://i.truyenvua.com/ebook/190x247/ta-quyet-khong-thanh-phat_1640594481.jpg?r=r86454566">
+            <img src="http://i.truyenvua.com/ebook/190x247/dau-an-rong-thieng_1552231726.jpg?r=r8645456">
+            <img src="http://i.truyenvua.com/ebook/190x247/dao-si-giang-ho_1607422801.jpg?r=r8645456">
+            <img src="http://i.truyenvua.com/ebook/190x247/doc-co-tu-linh-su_1632020669.jpg?r=r8645456">
+            <img src="http://i.truyenvua.com/ebook/190x247/luyen-cap-chon-dia-nguc_1640953276.jpg?r=r8645456">
+            <img src="http://i.truyenvua.com/ebook/190x247/ta-dung-sach-giai-tri-thanh-thanh-nhan_1640827560.jpg?r=r8645456">
+        </div>        
+</div>
+    <footer>
+    <div class="theodoi">
+        <h3>Theo dõi chúng tôi&emsp;</h3>
+        <P>
+            <a href="https://www.facebook.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" width="60px"></a>           
+            <a href="https://www.instagram.com/"><img src="https://image.similarpng.com/very-thumbnail/2020/05/Vector-Instagram-icon-PNG.png" width="60px"></a>
+            <a href="https://discord.com/"><img src="https://www.svgrepo.com/show/331368/discord-v2.svg" width="60px"></a>
+        </p>
+    </div>
+    <div class="lienhe">
+        <h3>Giới thiệu sơ lược về chúng tôi </h3>
+        <P>
+            <h6>Trang web được thành lập năm 2021 do QQcomic</h6>
+            <h6>QQ comic nơi giải trí dành cho bạn</h6>
+            <iframe
+            src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2F127.0.0.1%3A5500%2Flab13bai1.html&width=150&layout=button_count&action=like&size=small&share=true&height=46&appId"
+            width="150" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </p>
+    </div>
+    <div id="bando">
+        <h3>Bản đồ</h3>
+        <a href="https://www.google.com/maps/d/embed?mid=1isgSnAjjsEuhAafZRs8VehJmKgtDP9F7&ehbc=2E312F" width="640" height="480"><img src="https://www.aapp.mobi/wp-content/uploads/2021/06/google-maps-navigate-explore.png" width="60px"></a>        
+    </div>
+    </div>
+</footer>
+<script src="https://uhchat.net/code.php?f=416f2f"></script>
+</body>
+</html>

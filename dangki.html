@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>28-PS22813-HOMINHQUAN</title>
+    <link rel="stylesheet" href="dangki.css">
+</head>
+<style>
+    #box{
+        width: 800px;
+        font-size: 35px;
+    }
+    .khung{
+        width: 50%;
+    }
+</style>
+<body>
+<div id="box">
+    <div class="khung">
+    <form method="post" enctype="multipart/form-data">
+        <div class = "form-group" >
+            <b >Họ và tên:</b>
+            <br>
+            <input type="text" class="form-control"size="58px" >
+        </div>
+        <fieldset class="form-group">
+            <legend><b>Giới tính:</b></legend>
+            <label >
+                <input type="radio" name="gioitinh">Nam
+                <input type="radio" name="gioitinh">Nữ
+            </label>
+        </fieldset >      
+        <div class="form-group">
+            <b>E-mail:</b>
+            <br>
+            <input type="email" name="email" class="form-control">
+        </div>
+        <div class="form-group">
+            <b>Telephone:</b>
+            <br>
+            <input type="tel" name="usrtel" class="form-control">
+        </div>
+        <div class="form-group">
+            <b>Ngày sinh:</b>
+            <br>
+            <input type="date" class="form-control">
+        </div>
+        <div class="form-group">
+            <b>Nghề nghiệp:</b>
+            <br>
+            <input size ="58px"type="list" list="job" class="form-control">
+            <datalist id="job">
+                <option value="Bác sĩ"></option>
+                <option value="Y tá"></option>
+                <option value="Giáo viên"></option>
+                <option value="Học sinh"></option>
+                <option value="Nông dân"></option>
+                <option value="Công nhân"></option>
+                <option value="Công an"></option>
+                <option value="Lập trình viên"></option>
+                <option value="Kinh doanh"></option>
+                <option value="Thiết kế thời trang"></option>
+            </datalist>
+        </div>
+        <fieldset class="form-group">
+            <legend><b>Sở thích</b></legend>
+            <br>
+            <input type="checkbox">Thể thao
+            <input type="checkbox">Du lịch
+            <input type="checkbox">Âm nhạc
+            <input type="checkbox">Ẩm thực
+        </fieldset>
+    </div>
+        <div class="form-group">
+            <b>Hình ảnh:</b>
+            <br>
+            <input type="file" name="" class="form-control">
+        </div>
+        <div >
+            <button type="submit" class="form-button">Đăng kí</button>
+            <button type="reset" class="form-button">Nhập lại</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

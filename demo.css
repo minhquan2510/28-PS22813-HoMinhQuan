@@ -1,0 +1,106 @@
+.bao{
+    width: 1290px;
+    margin: 0 auto ;
+}
+.menu>ul>li
+{
+    display: inline-block;
+    position: relative;
+
+}
+.menu>ul>li>a
+{
+    display: block;
+    text-decoration: none;
+    font-variant: normal;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+    
+}
+.menu>ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orange;
+    text-align: center;
+    
+}
+.menu>ul>li>a:hover
+{
+    color: yellow;
+}
+.menu ul ul
+{
+    position:absolute;/*mac dinh la 1*/
+    z-index: 2; /* che do uu tien khi co position absolute*/
+    display: none ;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a
+{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: normal;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul
+{
+    display: block;
+    
+}
+.menu ul ul a:hover
+{
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+}
+li a:hover {
+    color: white;
+    background-color:rgb(240, 85, 144);
+    font-weight: normal;
+  }
+*{
+    padding: 0;
+    margin: 0;
+  }
+.box{
+    width:1270px;
+    height: 25px;
+    padding: 12px 2px 12px 2px;
+    margin: 0 auto ;
+    font-size: 24px;
+    font-weight: 500px;
+    font-family: Quicksand,sans-serif;
+    line-height: 24px;
+    color:white;
+}
+.container{
+    background-color:white;
+}
+.boxlogo{
+    border: 3px solid black;
+    width: 50px ;
+}
+.lienhe{
+    float: left;
+}
+.theodoi{
+    float:right ;
+}
+.container{
+    background-image: url(https://tophinhanhdep.com/wp-content/uploads/2021/10/Blue-Galaxy-Wallpapers.jpg);
+    background-size: 0;
+}
